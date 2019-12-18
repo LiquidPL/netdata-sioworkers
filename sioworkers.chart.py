@@ -6,7 +6,7 @@ ORDER = ['workers']
 
 CHARTS = {
     'workers': {
-        'options': [None, 'Active workers', 'counts', 'workers', 'workers', 'stacked'],
+        'options': [None, 'Active workers', 'counts', 'workers', 'workers', 'area'],
         'lines' : [
             ['capacity', 'Capacity', 'absolute'],
             ['load', 'Task load', 'absolute'],
